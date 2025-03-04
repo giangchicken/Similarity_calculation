@@ -129,7 +129,7 @@ if __name__ == "__main__":
         Similarity matrix được chia thành các partition.
     '''
 
-    load_dotenv()
+    load_dotenv("./config.env")
     #Configuration (adjust paths as needed)
     data_path = os.getenv("DATA_PATH")
     output_path = os.getenv("OUTPUT_PATH")
