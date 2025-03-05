@@ -1,11 +1,5 @@
 #!/bin/bash
 
-# Cập nhật hệ thống
-sudo apt update -y && sudo apt upgrade -y
-
-# Cài đặt Git
-sudo apt install -y git
-
 # Tạo và kích hoạt môi trường ảo
 python3 -m venv venv
 source venv/bin/activate

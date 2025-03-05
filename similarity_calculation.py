@@ -89,7 +89,7 @@ class SimilarityMatrixDask:
             similarity_matrix = similarity_matrix.rechunk((5000, 5000))  # Adjust based on memory limits
 
             # Persist to ensure efficient computation
-            similarity_matrix = similarity_matrix.persist()
+            # similarity_matrix = similarity_matrix.persist()
 
             print(f"📌 Similarity matrix shape: {similarity_matrix.shape}")
 
